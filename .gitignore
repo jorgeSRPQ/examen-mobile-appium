@@ -1,0 +1,13 @@
+#Directory
+target
+target/
+*/target/
+.idea
+/target
+response/
+
+#Files
+*.iml
+debug.log
+.DS_Store
+**/*.DS_Store
