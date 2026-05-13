@@ -8,7 +8,7 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"json:target/build/cucumber.json"},
@@ -16,7 +16,8 @@ import org.junit.runner.RunWith;
         glue = "com.bdd.glue",
         features = "src/test/resources/features",
         stepNotifications = true,
-        tags = "@carrito"
+        tags = "@carrito",
+        monochrome = true
 )
 public class RunnerTest {
     @BeforeClass

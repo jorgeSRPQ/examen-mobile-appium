@@ -25,9 +25,9 @@ public class CatalogGlue {
 
         catalogStep.seleccionarProducto(producto);
 
-        catalogStep.agregarCantidad(unidades);
-
-        catalogStep.agregarProductoCarrito();
+        for (int i = 0; i < unidades; i++) {
+            catalogStep.agregarProductoCarrito();
+        }
 
         catalogStep.ingresarCarrito();
     }

@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 public class MobileBase {
 

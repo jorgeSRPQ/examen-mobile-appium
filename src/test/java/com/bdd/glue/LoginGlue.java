@@ -15,7 +15,7 @@ import net.thucydides.core.annotations.Steps;
 import java.util.logging.Level;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 public class LoginGlue {
 

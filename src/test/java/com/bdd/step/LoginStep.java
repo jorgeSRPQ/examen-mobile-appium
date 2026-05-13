@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 public class LoginStep {
 

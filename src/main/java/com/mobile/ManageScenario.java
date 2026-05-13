@@ -4,7 +4,7 @@ package com.mobile;
 import io.cucumber.java.Scenario;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 public class ManageScenario {
 

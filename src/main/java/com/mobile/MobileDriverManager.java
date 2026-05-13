@@ -25,16 +25,19 @@ public class MobileDriverManager {
     public static void setMobileDriver() {
 
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("platformVersion", "12");
+        desiredCapabilities.setCapability("platformVersion", "16");
         desiredCapabilities.setCapability("automationName", "UiAutomator2");
-        desiredCapabilities.setCapability("deviceName", "emulator-5554");
-        desiredCapabilities.setCapability("udid", "emulator-5554");
+        desiredCapabilities.setCapability("autoGrantPermissions", true);
+
+        desiredCapabilities.setCapability("deviceName", "RF8Y90RGAMD");
+        desiredCapabilities.setCapability("udid", "RF8Y90RGAMD");
+
         desiredCapabilities.setCapability(
                 "app",
                 System.getProperty("user.dir") + "/src/test/resources/app/mda-2.0.2-23.apk"
         );
 
-        desiredCapabilities.setCapability("noReset", false);
+        desiredCapabilities.setCapability("noReset", true);
 
         System.out.println("url server:" + appiumHub);
 

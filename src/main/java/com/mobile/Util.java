@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.logging.Logger;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 public class Util {
 

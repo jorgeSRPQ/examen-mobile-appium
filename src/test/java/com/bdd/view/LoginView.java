@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.logging.Level;
 
 /**
- * @author Karla Ccallo
+ * @author Jorge Rivas Roque
  */
 public class LoginView extends MobileBase {
 
